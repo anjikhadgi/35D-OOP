@@ -1,0 +1,23 @@
+public class DoWhileLoop {
+    public static void main (String[]args){
+        int num1 = 0;
+        while(num1 < 0){
+            System.out.println("While checks condition first");
+        }
+
+        /*Do while checks condition after first iteration */
+        do{
+            System.out.println("Do while checks condition after");
+        }while(num1 < 0);
+        /*This meansdo while loop runs at least once */
+
+        /*Task
+         * Use a while loop to
+         * ask user for an int value
+         * if the user input positive value
+         * promt user to input negative value
+         * loop until the user input negative int value
+         */
+
+    }
+}
