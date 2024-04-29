@@ -1,3 +1,5 @@
+import
+
 public class DoWhileLoop {
     public static void main (String[]args){
         int num1 = 0;
@@ -18,6 +20,10 @@ public class DoWhileLoop {
          * promt user to input negative value
          * loop until the user input negative int value
          */
-
+        
+        Scanner scan = new Scanner (System.in);
+        System.out.println("Please enter a number");
+        int input = scan.nextInt();
+        while
     }
 }
